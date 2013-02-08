@@ -1,0 +1,1 @@
+This contains my solutions to Euler Problems in C.  Each solution is located in its own class file.
