@@ -41,5 +41,8 @@
     <ClCompile Include="Euler2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Euler3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
