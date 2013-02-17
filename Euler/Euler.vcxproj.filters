@@ -56,5 +56,8 @@
     <ClCompile Include="Euler7.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Euler8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
