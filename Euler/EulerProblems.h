@@ -7,3 +7,4 @@ int Euler6();
 int Euler7();
 int Euler8();
 int Euler9();
+long long int Euler10();

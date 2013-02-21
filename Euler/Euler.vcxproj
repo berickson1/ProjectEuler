@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="Euler.c" />
     <ClCompile Include="Euler1.c" />
+    <ClCompile Include="Euler10.c" />
     <ClCompile Include="Euler2.c" />
     <ClCompile Include="Euler3.c" />
     <ClCompile Include="Euler4.c" />
