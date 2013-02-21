@@ -8,7 +8,6 @@
 int _tmain(int argc, _TCHAR* argv[]){
 	
 	char userinput;
-	userinput = fgetc(stdin);
 	printf("Euler Prolem 1: %d\n",Euler1());
 	printf("Euler Prolem 2: %d\n",Euler2());
 	printf("Euler Prolem 3: %d\n",Euler3());
@@ -20,6 +19,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 	printf("Euler Prolem 9: %d\n",Euler9());
 	printf("Euler Prolem 10: %lld\n",Euler10());
 	printf("Euler Prolem 11: %d\n",Euler11());
+	printf("Euler Prolem 12: %d\n",Euler12());
 	printf("Press enter to end program");
 	fflush(stdout);
 	userinput = fgetc(stdin);
