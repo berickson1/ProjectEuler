@@ -27,6 +27,9 @@
     <ClInclude Include="EulerProblems.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Euler13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.c">
@@ -69,6 +72,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Euler12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler13.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
