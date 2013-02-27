@@ -21,6 +21,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 	printf("Euler Prolem 11: %d\n",Euler11());
 	printf("Euler Prolem 12: %d\n",Euler12());
 	printf("Euler Prolem 13: %lld\n",Euler13());
+	printf("Euler Prolem 14: %d\n",Euler14());
 	printf("Press enter to end program");
 	fflush(stdout);
 	userinput = fgetc(stdin);

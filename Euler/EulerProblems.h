@@ -11,3 +11,4 @@ long long int Euler10();
 int Euler11();
 int Euler12();
 long long int Euler13();
+int Euler14();
