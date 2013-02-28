@@ -58,6 +58,22 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>echo ^/^/ Euler.c : Defines the entry point for the console application. &gt; Euler.c
+echo ^/^/ &gt;&gt; Euler.c
+echo ^#include "stdafx.h" &gt;&gt; Euler.c
+echo ^#include "EulerProblems.h" &gt;&gt; Euler.c
+echo int _tmain(int argc, _TCHAR* argv[]){ &gt;&gt; Euler.c
+echo     char userinput; &gt;&gt; Euler.c
+for /F "tokens=2-5 delims=; " %%A in (EulerProblems.h) do (
+if NOT %%A == long echo     printf("%%A: %%d\n", %%A^)^; &gt;&gt; Euler.c
+if %%A == long echo     printf("%%C: %%lld\n", %%C^)^; &gt;&gt; Euler.c
+)
+echo     fflush(stdout); &gt;&gt; Euler.c
+echo     userinput = fgetc(stdin); &gt;&gt; Euler.c
+echo     return 0; &gt;&gt; Euler.c
+echo } &gt;&gt; Euler.c</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
