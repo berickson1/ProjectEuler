@@ -91,6 +91,22 @@ echo } &gt;&gt; Euler.c</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
+    <PreBuildEvent>
+      <Command>echo ^/^/ Euler.c : Defines the entry point for the console application. &gt; Euler.c
+echo ^/^/ &gt;&gt; Euler.c
+echo ^#include "stdafx.h" &gt;&gt; Euler.c
+echo ^#include "EulerProblems.h" &gt;&gt; Euler.c
+echo int _tmain(int argc, _TCHAR* argv[]){ &gt;&gt; Euler.c
+echo     char userinput; &gt;&gt; Euler.c
+for /F "tokens=2-5 delims=; " %%A in (EulerProblems.h) do (
+if NOT %%A == long echo     printf("%%A: %%d\n", %%A^)^; &gt;&gt; Euler.c
+if %%A == long echo     printf("%%C: %%lld\n", %%C^)^; &gt;&gt; Euler.c
+)
+echo     fflush(stdout); &gt;&gt; Euler.c
+echo     userinput = fgetc(stdin); &gt;&gt; Euler.c
+echo     return 0; &gt;&gt; Euler.c
+echo } &gt;&gt; Euler.c</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -109,6 +125,7 @@ echo } &gt;&gt; Euler.c</Command>
     <ClCompile Include="Euler12.c" />
     <ClCompile Include="Euler13.c" />
     <ClCompile Include="Euler14.c" />
+    <ClCompile Include="Euler15.c" />
     <ClCompile Include="Euler2.c" />
     <ClCompile Include="Euler3.c" />
     <ClCompile Include="Euler4.c" />
