@@ -83,5 +83,8 @@
     <ClCompile Include="Euler15.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Euler16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -126,6 +126,7 @@ echo } &gt;&gt; Euler.c</Command>
     <ClCompile Include="Euler13.c" />
     <ClCompile Include="Euler14.c" />
     <ClCompile Include="Euler15.c" />
+    <ClCompile Include="Euler16.c" />
     <ClCompile Include="Euler2.c" />
     <ClCompile Include="Euler3.c" />
     <ClCompile Include="Euler4.c" />
