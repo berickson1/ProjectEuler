@@ -16,6 +16,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="Euler18.txt" />
+    <Text Include="Euler67.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -28,6 +30,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Euler13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Euler18.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -84,6 +89,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Euler16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler17.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler18.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler67.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
