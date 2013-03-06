@@ -49,6 +49,7 @@ int computeLongestPath(FILE * file, int length){
 			maxVal = *currCell;
 		}
 	}
+	free(resultArrHead);
 	return maxVal;
 }
 //Returns the maximum path sum in a given text file (Euler18.txt)
