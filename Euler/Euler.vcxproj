@@ -110,6 +110,7 @@ echo } &gt;&gt; Euler.c</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="Euler18.txt" />
+    <Text Include="Euler22.txt" />
     <Text Include="Euler67.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
@@ -136,6 +137,7 @@ echo } &gt;&gt; Euler.c</Command>
     <ClCompile Include="Euler2.c" />
     <ClCompile Include="Euler20.c" />
     <ClCompile Include="Euler21.c" />
+    <ClCompile Include="Euler22.c" />
     <ClCompile Include="Euler3.c" />
     <ClCompile Include="Euler4.c" />
     <ClCompile Include="Euler5.c" />
