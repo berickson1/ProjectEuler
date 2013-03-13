@@ -20,4 +20,5 @@ int Euler19();
 int Euler20();
 int Euler21();
 int Euler22();
+int Euler23();
 int Euler67();

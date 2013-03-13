@@ -1,16 +1,4 @@
 #include "stdafx.h"
-//Returns all sum of all the propor divisors of a given number
-int calculateFactorSum(int num){
-	int divisor;
-	//1 is always a factor, the number isn't
-	int sum = 1;
-	for(divisor = 2; divisor <=  sqrt((float)num); divisor++){
-		if(num % divisor == 0){
-			sum += (num / divisor) + divisor;
-		}
-	}
-	return sum;
-}
 
 //Returns the sum of all amicable numbers under 10000
 int Euler21(){

@@ -11,6 +11,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include "MathUtil.h"
+
+#define TRUE 1
+#define FALSE 0
 
 
 // TODO: reference additional headers your program requires here
