@@ -122,5 +122,8 @@
     <ClCompile Include="Euler23.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Euler24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
